@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name-input, .due-date-input{
+    font-size: 20px;    
+    padding: 5px;
+
+}
+
+
+.add-button{
+    font-size: 15px;
+    background-color: green;
+    padding: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.delete-button{
+    font-size: 15px;
+    background-color:darkred;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-weight: bold;
+
+}
+
+.todo-grid, .inputs-grid{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+
+.inputs-grid{
+    margin-bottom: 10px;
+    align-items: stretch;
+}
